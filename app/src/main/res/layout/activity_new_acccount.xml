@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/My_primary_color"
+    android:background="@color/my_primary_color"
     tools:context=".NewAcccountActivity">
 
     <LinearLayout
@@ -19,15 +19,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" >
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/my_primary_color"
-            android:backgroundTint="@color/my_primary_color"
-            android:text="Button" />
+        app:layout_constraintVertical_bias="1.0">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/paddin"
@@ -66,6 +58,12 @@
                 android:hint="hint" />
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </LinearLayout>
 
     <TextView
